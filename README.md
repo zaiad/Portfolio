@@ -17,12 +17,13 @@ A professional, responsive portfolio website built with React, TypeScript, and T
 ### Prerequisites
 
 - Node.js (v16 or higher)
-- npm 
+- npm
 
 ### Installation
 
 1. Clone the repository
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -63,21 +64,6 @@ The contact form uses Gmail SMTP. To set it up:
    - Generate a password for "Mail"
 3. Use this app password in your `.env.local` file
 
-### WhatsApp Setup
-
-Update the phone number in these files:
-- `src/components/Contact.tsx`
-- `src/components/WhatsAppButton.tsx`
-
-Replace `"+201234567890"` with your actual WhatsApp number (include country code).
-
-### Customization
-
-1. **Personal Information**: Update the data in `src/data/portfolio.ts`
-2. **Images**: Replace placeholder images with your own
-3. **Colors**: Modify the color scheme in `tailwind.config.js`
-4. **Content**: Update text content in each component
-
 ## Project Structure
 
 ```
@@ -91,22 +77,14 @@ server/
 └── index.js           # Express server for email handling
 ```
 
-## Deployment
 
 ### Frontend Deployment
 
 Build the project:
+
 ```bash
 npm run build
 ```
-
-Deploy the `dist` folder to your preferred hosting service (Netlify, Vercel, etc.).
-
-### Backend Deployment
-
-Deploy the `server/index.js` file to a Node.js hosting service (Railway, Render, Heroku, etc.).
-
-Update the API URL in your frontend environment variables.
 
 ## Technologies Used
 
@@ -115,19 +93,19 @@ Update the API URL in your frontend environment variables.
 - **Icons**: Lucide React
 - **Animations**: CSS transitions and transforms
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 # Portfolio
+
 This is my personal portfolio website where I showcase my projects, skills, and experience as a developer.
 
 ## 🚀 Tech Stack
+
 - React + Vite
 - TypeScript
 - Tailwind CSS
 - Node.js
 
 ## 📌 Features
+
 - About me section
 - Projects with live demo & GitHub links
 - Skills categorized by frontend, backend, and tools
@@ -135,4 +113,5 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 - Contact form
 
 ## 🌐 Live Demo
+
 [Visit my portfolio](https://portfolio-zaiad.vercel.app/)
