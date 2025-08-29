@@ -17,7 +17,7 @@ A professional, responsive portfolio website built with React, TypeScript, and T
 ### Prerequisites
 
 - Node.js (v16 or higher)
-- npm or yarn
+- npm 
 
 ### Installation
 
@@ -46,10 +46,10 @@ Or run them separately:
 
 ```bash
 # Frontend only
-npm run dev
+npm run dev: client
 
 # Backend only
-npm run server
+npm run dev: server or nodemon
 ```
 
 ### Email Setup
@@ -118,3 +118,21 @@ Update the API URL in your frontend environment variables.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+# Portfolio
+This is my personal portfolio website where I showcase my projects, skills, and experience as a developer.
+
+## 🚀 Tech Stack
+- React + Vite
+- TypeScript
+- Tailwind CSS
+- Node.js
+
+## 📌 Features
+- About me section
+- Projects with live demo & GitHub links
+- Skills categorized by frontend, backend, and tools
+- Timeline of education & work experience
+- Contact form
+
+## 🌐 Live Demo
+[Visit my portfolio](https://portfolio-zaiad.vercel.app/)
